@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830C36DB170CF7EF00403A2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C36DA170CF7EF00403A2F /* UIKit.framework */; };
+		830C36DD170CF7EF00403A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C36DC170CF7EF00403A2F /* Foundation.framework */; };
+		830C36DF170CF7EF00403A2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C36DE170CF7EF00403A2F /* CoreGraphics.framework */; };
+		830C36E5170CF7EF00403A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 830C36E3170CF7EF00403A2F /* InfoPlist.strings */; };
+		830C36E7170CF7EF00403A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830C36E6170CF7EF00403A2F /* main.m */; };
+		830C36EB170CF7EF00403A2F /* ConversionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830C36EA170CF7EF00403A2F /* ConversionAppDelegate.m */; };
+		830C36EE170CF7EF00403A2F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830C36EC170CF7EF00403A2F /* MainStoryboard_iPhone.storyboard */; };
+		830C36F1170CF7EF00403A2F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830C36EF170CF7EF00403A2F /* MainStoryboard_iPad.storyboard */; };
+		830C36FC170CF81800403A2F /* ConversionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830C36FB170CF81800403A2F /* ConversionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830C36D6170CF7EF00403A2F /* Conversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830C36DA170CF7EF00403A2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		830C36DC170CF7EF00403A2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		830C36DE170CF7EF00403A2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		830C36E2170CF7EF00403A2F /* Conversion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Conversion-Info.plist"; sourceTree = "<group>"; };
+		830C36E4170CF7EF00403A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		830C36E6170CF7EF00403A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		830C36E8170CF7EF00403A2F /* Conversion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Conversion-Prefix.pch"; sourceTree = "<group>"; };
+		830C36E9170CF7EF00403A2F /* ConversionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversionAppDelegate.h; sourceTree = "<group>"; };
+		830C36EA170CF7EF00403A2F /* ConversionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversionAppDelegate.m; sourceTree = "<group>"; };
+		830C36ED170CF7EF00403A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		830C36F0170CF7EF00403A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		830C36FA170CF81800403A2F /* ConversionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionViewController.h; sourceTree = "<group>"; };
+		830C36FB170CF81800403A2F /* ConversionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830C36D3170CF7EF00403A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830C36DB170CF7EF00403A2F /* UIKit.framework in Frameworks */,
+				830C36DD170CF7EF00403A2F /* Foundation.framework in Frameworks */,
+				830C36DF170CF7EF00403A2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830C36CB170CF7EF00403A2F = {
+			isa = PBXGroup;
+			children = (
+				830C36E0170CF7EF00403A2F /* Conversion */,
+				830C36D9170CF7EF00403A2F /* Frameworks */,
+				830C36D7170CF7EF00403A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830C36D7170CF7EF00403A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830C36D6170CF7EF00403A2F /* Conversion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830C36D9170CF7EF00403A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830C36DA170CF7EF00403A2F /* UIKit.framework */,
+				830C36DC170CF7EF00403A2F /* Foundation.framework */,
+				830C36DE170CF7EF00403A2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		830C36E0170CF7EF00403A2F /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				830C36E9170CF7EF00403A2F /* ConversionAppDelegate.h */,
+				830C36EA170CF7EF00403A2F /* ConversionAppDelegate.m */,
+				830C36EC170CF7EF00403A2F /* MainStoryboard_iPhone.storyboard */,
+				830C36EF170CF7EF00403A2F /* MainStoryboard_iPad.storyboard */,
+				830C36FA170CF81800403A2F /* ConversionViewController.h */,
+				830C36FB170CF81800403A2F /* ConversionViewController.m */,
+				830C36E1170CF7EF00403A2F /* Supporting Files */,
+			);
+			path = Conversion;
+			sourceTree = "<group>";
+		};
+		830C36E1170CF7EF00403A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				830C36E2170CF7EF00403A2F /* Conversion-Info.plist */,
+				830C36E3170CF7EF00403A2F /* InfoPlist.strings */,
+				830C36E6170CF7EF00403A2F /* main.m */,
+				830C36E8170CF7EF00403A2F /* Conversion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830C36D5170CF7EF00403A2F /* Conversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830C36F7170CF7EF00403A2F /* Build configuration list for PBXNativeTarget "Conversion" */;
+			buildPhases = (
+				830C36D2170CF7EF00403A2F /* Sources */,
+				830C36D3170CF7EF00403A2F /* Frameworks */,
+				830C36D4170CF7EF00403A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conversion;
+			productName = Conversion;
+			productReference = 830C36D6170CF7EF00403A2F /* Conversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830C36CD170CF7EF00403A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 830C36D0170CF7EF00403A2F /* Build configuration list for PBXProject "Conversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 830C36CB170CF7EF00403A2F;
+			productRefGroup = 830C36D7170CF7EF00403A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830C36D5170CF7EF00403A2F /* Conversion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830C36D4170CF7EF00403A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830C36E5170CF7EF00403A2F /* InfoPlist.strings in Resources */,
+				830C36EE170CF7EF00403A2F /* MainStoryboard_iPhone.storyboard in Resources */,
+				830C36F1170CF7EF00403A2F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830C36D2170CF7EF00403A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830C36E7170CF7EF00403A2F /* main.m in Sources */,
+				830C36EB170CF7EF00403A2F /* ConversionAppDelegate.m in Sources */,
+				830C36FC170CF81800403A2F /* ConversionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		830C36E3170CF7EF00403A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830C36E4170CF7EF00403A2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		830C36EC170CF7EF00403A2F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830C36ED170CF7EF00403A2F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		830C36EF170CF7EF00403A2F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830C36F0170CF7EF00403A2F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830C36F5170CF7EF00403A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830C36F6170CF7EF00403A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830C36F8170CF7EF00403A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conversion/Conversion-Prefix.pch";
+				INFOPLIST_FILE = "Conversion/Conversion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		830C36F9170CF7EF00403A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conversion/Conversion-Prefix.pch";
+				INFOPLIST_FILE = "Conversion/Conversion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830C36D0170CF7EF00403A2F /* Build configuration list for PBXProject "Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830C36F5170CF7EF00403A2F /* Debug */,
+				830C36F6170CF7EF00403A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830C36F7170CF7EF00403A2F /* Build configuration list for PBXNativeTarget "Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830C36F8170CF7EF00403A2F /* Debug */,
+				830C36F9170CF7EF00403A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830C36CD170CF7EF00403A2F /* Project object */;
+}
